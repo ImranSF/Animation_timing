@@ -1,0 +1,41 @@
+
+div {
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-weight: 400;
+  position: relative;
+  animation: mymove 6s infinite;
+  animation-timing-function: linear;
+}
+
+#div1{
+	background-color: red;
+	color: black;
+	animation-timing-function: linear;
+}
+#div2 {
+	background-color: royalblue;
+	color: black;
+	animation-timing-function: ease;
+}
+#div3 {
+	background-color: lavender;
+	color: black;
+	animation-timing-function: ease-in;
+}
+#div4 {
+	background-color: aliceblue;
+	color: black;
+	animation-timing-function: ease-out;
+}
+#div5 {
+	background-color: lightcoral;
+	color: black;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 400px;}
+}
